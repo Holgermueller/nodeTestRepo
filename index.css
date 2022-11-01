@@ -36,6 +36,12 @@ header {
   z-index: 5;
 }
 
+.main-container {
+  height: 100vh;
+  display: grid;
+  align-content: center;
+}
+
 main {
   display: grid;
   align-content: center;

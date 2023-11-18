@@ -11,6 +11,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./public/index.css" />
+
     <title>Writing Apps</title>
   </head>
   <body>
@@ -80,8 +81,32 @@
           </a>
         </div>
       </main>
+
+      <section class="button-section">
+        <button id="modalButton" onclick="showModal()">About</button>
+      </section>
+    </div>
+
+    <div class="modal" id="myModal">
+      <div class="modal-content">
+        <p class="modal-text">
+          Hello, Esteemed Internet Wanderer, and welcome to this app!
+        </p>
+        <p>
+          Aside from being a sub-prtfolio, what it is is a colleciton of links
+          to apps that I use in my writing. They're pretty simple as far as
+          examples of my coding skills go, but I think they're fun and are good
+          examples of my personality and show my interests outside of coding and
+          front-end design and development.
+        </p>
+        <p>I hope you find them interesting.</p>
+        <p>Take care!</p>
+        <span onclick="hideModal()" id="span" class="close">CLOSE</span>
+      </div>
     </div>
 
     <footer>&COPY; 2022 Holger Mueller</footer>
+
+    <script src="index.js"></script>
   </body>
 </html>

@@ -159,5 +159,6 @@ footer {
   left: 0;
   position: absolute;
   padding: 4px;
+  margin: 4px;
   color: var(--white-color);
 }
